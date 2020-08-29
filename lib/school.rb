@@ -18,7 +18,7 @@ class School
   
   def sort
     roster.each do |grade, student_name|
-      students.sort!
+      student_name.sort!
     end
   end
   
