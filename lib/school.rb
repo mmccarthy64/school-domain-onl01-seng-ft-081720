@@ -11,4 +11,6 @@ class School
     roster[grade]||= []
     roster[grade] << grade
   end
+  
+  
 end
