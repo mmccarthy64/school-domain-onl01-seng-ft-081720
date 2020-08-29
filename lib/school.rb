@@ -13,7 +13,7 @@ class School
   end
   
   def grade
-    roster[grade]
+    @roster[grade]
   end
   
   def sort
